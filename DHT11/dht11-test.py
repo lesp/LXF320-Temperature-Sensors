@@ -10,4 +10,4 @@ while True:
     temp = sensor.temperature()
     humidity = sensor.humidity()
     print('The temperature is:', "{:.2f}ºC".format(temp))
-    print('The humdity is:', "{:.1f}%".format(humidity))
+    print('The humidity is:', "{:.1f}%".format(humidity))
